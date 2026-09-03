@@ -1,0 +1,25 @@
+# Gradle
+/.gradle/
+/build/
+
+# IntelliJ / Android Studio
+/.idea/
+*.iml
+*.iws
+*.ipr
+
+# Android
+/local.properties
+/captures/
+/.externalNativeBuild/
+/.cxx/
+
+# VS Code (если используешь параллельно)
+/.vscode/
+
+# macOS / Windows мусор
+.DS_Store
+Thumbs.db
+*.log
+/tmp/
+/temp/

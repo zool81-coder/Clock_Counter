@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Clock Counter</string>
+    <string name="app_name_1">Введите значение</string>
+    <string name="app_name_2">0</string>
+    <string name="app_name_fornum">no action</string>
+    <string name="app_buttonInter">ВВОД</string>
+    <string name="textview">Контрольное поле</string>
+    <string name="textHint">Введите число</string>
+    <string name="app_buttonReset">СБРОС</string>
+    <string name="rotating_image">индикатор часы запущены</string>
+    <string name="extra_element">флаг превышения 3 тысячи</string>
+    <string name="start_x1">Пуск x1</string>
+</resources>
