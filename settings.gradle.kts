@@ -17,6 +17,10 @@ plugins {
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
+        // ⚠️ ЛОКАЛЬНЫЙ РЕПОЗИТОРИЙ: нужен из‑за недоступности dl.google.com
+        // Без этой папки сборка падает с ошибкой про aapt2
+        maven { url = uri("local-repo") }
+
         google()
         mavenCentral()
     }
