@@ -1,20 +1,9 @@
-\# ClockCounter
-
-
+# ClockCounter
 
 Программа для проверки показаний счётчика времени.
 
+## Скриншоты
 
-
-\## Скриншоты
-
-
-
-!\[Главный экран ClockCounter](docs/screenshots/clock-counter-main.png)
-
-
+![Главный экран ClockCounter](docs/screenshots/clock-counter-main.png)
 
 На скриншоте — основной интерфейс приложения: отображение времени, кнопки старта/стопа, кнопка выбора стрелок и сброса.
-
-
-
