@@ -19,7 +19,9 @@ dependencyResolutionManagement {
     repositories {
         // ⚠️ ЛОКАЛЬНЫЙ РЕПОЗИТОРИЙ: нужен из‑за недоступности dl.google.com
         // Без этой папки сборка падает с ошибкой про aapt2
-        maven { url = uri("local-repo") }
+        // Если сборка падает с ошибкой, связанной с AAPT2,
+        // раскомментируйте строку ниже и убедитесь, что папка local-repo существует.
+        // maven { url = uri("local-repo") }
 
         google()
         mavenCentral()
